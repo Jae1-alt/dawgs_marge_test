@@ -1,0 +1,80 @@
+dawgs-merge-project
+
+
+git clone https://github.com/Jae1-alt/dawgs_marge_test.git
+
+( clone into repo )
+
+####
+
+cd dawgs_marge_test/
+
+( cd into repo )
+
+####
+
+git checkout -b <branch name>
+
+( create branch )
+
+####
+```bash
+mkdir 4.day && cd 4.day
+```
+
+```bash
+touch file.txt
+```
+( create directory + save a file )
+
+####
+
+```bash
+git push -u origin <branch name>
+```
+
+tracking new branch
+
+####
+
+```bash
+git add .
+
+git commit -m "test"
+
+git push -u origin <branch name>
+```
+
+####
+
+If you do not want to use the merge button or an automatic merge cannot be performed, you can perform a manual merge on the command line. However, the following steps are not applicable if the base branch is protected.
+
+https://github.com/Jae1-alt/dawgs_marge_test.git
+
+git pull origin main
+
+git checkout main
+
+git merge <branch name>
+
+git push -u origin main
+
+
+
+List all the local branches
+git branch
+
+Create a new branch
+git branch BRANCH NAME
+
+Rename the current branch
+git branch -m NEW BRANCH NAME
+
+Delete a branch
+git branch -d BRANCH NAME
+
+Switch to another branch
+git switch BRANCH NAME
+
+Merge specified branch into the current branch
+git merge BRANCH NAME
